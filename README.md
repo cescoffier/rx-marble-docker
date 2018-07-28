@@ -11,8 +11,16 @@ This repository packages https://bitbucket.org/achary/rx-marbles/ into a Docker 
 
 ### Building
 
+Run the following command after having clone the repository:
+
 ```bash
 docker build -t cescoffier/rx-marbles .
+```
+
+or just use:
+
+```bash
+docker pull cescoffier/rx-marbles
 ```
 
 ### Running
